@@ -1,0 +1,346 @@
+My vcpkg config on Windows. This has more packages than you'll need, but can help you get all the right versions if you want to build on Windows.
+
+blosc:x64-windows                                  1.13.5-1         A blocking, shuffling and loss-less compression ...
+blosc:x86-windows                                  1.13.5-1         A blocking, shuffling and loss-less compression ...
+boost-accumulators:x64-windows                     1.68.0           Boost accumulators module
+boost-accumulators:x86-windows                     1.68.0           Boost accumulators module
+boost-algorithm:x64-windows                        1.68.0           Boost algorithm module
+boost-algorithm:x86-windows                        1.68.0           Boost algorithm module
+boost-align:x64-windows                            1.68.0           Boost align module
+boost-align:x86-windows                            1.68.0           Boost align module
+boost-any:x64-windows                              1.68.0           Boost any module
+boost-any:x86-windows                              1.68.0           Boost any module
+boost-array:x64-windows                            1.68.0           Boost array module
+boost-array:x86-windows                            1.68.0           Boost array module
+boost-asio:x64-windows                             1.68.0-1         Boost asio module
+boost-asio:x86-windows                             1.68.0-1         Boost asio module
+boost-assert:x64-windows                           1.68.0           Boost assert module
+boost-assert:x86-windows                           1.68.0           Boost assert module
+boost-assign:x64-windows                           1.68.0           Boost assign module
+boost-assign:x86-windows                           1.68.0           Boost assign module
+boost-atomic:x64-windows                           1.68.0           Boost atomic module
+boost-atomic:x86-windows                           1.68.0           Boost atomic module
+boost-beast:x64-windows                            1.68.0           Boost beast module
+boost-beast:x86-windows                            1.68.0           Boost beast module
+boost-bimap:x64-windows                            1.68.0           Boost bimap module
+boost-bimap:x86-windows                            1.68.0           Boost bimap module
+boost-bind:x64-windows                             1.68.0           Boost bind module
+boost-bind:x86-windows                             1.68.0           Boost bind module
+boost-build:x64-windows                            1.68.0           Boost.Build
+boost-build:x86-windows                            1.68.0           Boost.Build
+boost-callable-traits:x64-windows                  1.68.0           Boost callable_traits module
+boost-callable-traits:x86-windows                  1.68.0           Boost callable_traits module
+boost-chrono:x64-windows                           1.68.0           Boost chrono module
+boost-chrono:x86-windows                           1.68.0           Boost chrono module
+boost-circular-buffer:x64-windows                  1.68.0           Boost circular_buffer module
+boost-circular-buffer:x86-windows                  1.68.0           Boost circular_buffer module
+boost-compatibility:x64-windows                    1.68.0           Boost compatibility module
+boost-compatibility:x86-windows                    1.68.0           Boost compatibility module
+boost-compute:x64-windows                          1.68.0           Boost compute module
+boost-compute:x86-windows                          1.68.0           Boost compute module
+boost-concept-check:x64-windows                    1.68.0           Boost concept_check module
+boost-concept-check:x86-windows                    1.68.0           Boost concept_check module
+boost-config:x64-windows                           1.68.0           Boost config module
+boost-config:x86-windows                           1.68.0           Boost config module
+boost-container-hash:x64-windows                   1.68.0           Boost container_hash module
+boost-container-hash:x86-windows                   1.68.0           Boost container_hash module
+boost-container:x64-windows                        1.68.0           Boost container module
+boost-container:x86-windows                        1.68.0           Boost container module
+boost-context:x64-windows                          1.68.0-1         Boost context module
+boost-context:x86-windows                          1.68.0-1         Boost context module
+boost-contract:x64-windows                         1.68.0           Boost contract module
+boost-contract:x86-windows                         1.68.0           Boost contract module
+boost-conversion:x64-windows                       1.68.0           Boost conversion module
+boost-conversion:x86-windows                       1.68.0           Boost conversion module
+boost-convert:x64-windows                          1.68.0           Boost convert module
+boost-convert:x86-windows                          1.68.0           Boost convert module
+boost-core:x64-windows                             1.68.0           Boost core module
+boost-core:x86-windows                             1.68.0           Boost core module
+boost-coroutine2:x64-windows                       1.68.0           Boost coroutine2 module
+boost-coroutine2:x86-windows                       1.68.0           Boost coroutine2 module
+boost-coroutine:x64-windows                        1.68.0           Boost coroutine module
+boost-coroutine:x86-windows                        1.68.0           Boost coroutine module
+boost-crc:x64-windows                              1.68.0           Boost crc module
+boost-crc:x86-windows                              1.68.0           Boost crc module
+boost-date-time:x64-windows                        1.68.0           Boost date_time module
+boost-date-time:x86-windows                        1.68.0           Boost date_time module
+boost-detail:x64-windows                           1.68.0           Boost detail module
+boost-detail:x86-windows                           1.68.0           Boost detail module
+boost-disjoint-sets:x64-windows                    1.68.0           Boost disjoint_sets module
+boost-disjoint-sets:x86-windows                    1.68.0           Boost disjoint_sets module
+boost-dll:x64-windows                              1.68.0           Boost dll module
+boost-dll:x86-windows                              1.68.0           Boost dll module
+boost-dynamic-bitset:x64-windows                   1.68.0           Boost dynamic_bitset module
+boost-dynamic-bitset:x86-windows                   1.68.0           Boost dynamic_bitset module
+boost-endian:x64-windows                           1.68.0           Boost endian module
+boost-endian:x86-windows                           1.68.0           Boost endian module
+boost-exception:x64-windows                        1.68.0           Boost exception module
+boost-exception:x86-windows                        1.68.0           Boost exception module
+boost-fiber:x64-windows                            1.68.0           Boost fiber module
+boost-fiber:x86-windows                            1.68.0           Boost fiber module
+boost-filesystem:x64-windows                       1.68.0           Boost filesystem module
+boost-filesystem:x86-windows                       1.68.0           Boost filesystem module
+boost-flyweight:x64-windows                        1.68.0           Boost flyweight module
+boost-flyweight:x86-windows                        1.68.0           Boost flyweight module
+boost-foreach:x64-windows                          1.68.0           Boost foreach module
+boost-foreach:x86-windows                          1.68.0           Boost foreach module
+boost-format:x64-windows                           1.68.0           Boost format module
+boost-format:x86-windows                           1.68.0           Boost format module
+boost-function-types:x64-windows                   1.68.0           Boost function_types module
+boost-function-types:x86-windows                   1.68.0           Boost function_types module
+boost-function:x64-windows                         1.68.0           Boost function module
+boost-function:x86-windows                         1.68.0           Boost function module
+boost-functional:x64-windows                       1.68.0           Boost functional module
+boost-functional:x86-windows                       1.68.0           Boost functional module
+boost-fusion:x64-windows                           1.68.0           Boost fusion module
+boost-fusion:x86-windows                           1.68.0           Boost fusion module
+boost-geometry:x64-windows                         1.68.0           Boost geometry module
+boost-geometry:x86-windows                         1.68.0           Boost geometry module
+boost-gil:x64-windows                              1.68.0           Boost gil module
+boost-gil:x86-windows                              1.68.0           Boost gil module
+boost-graph-parallel:x64-windows                   1.68.0           Boost graph_parallel module
+boost-graph-parallel:x86-windows                   1.68.0           Boost graph_parallel module
+boost-graph:x64-windows                            1.68.0           Boost graph module
+boost-graph:x86-windows                            1.68.0           Boost graph module
+boost-hana-msvc:x64-windows                        1.67.0-1         Boost hana module
+boost-hana-msvc:x86-windows                        1.67.0-1         Boost hana module
+boost-hana:x64-windows                             1.68.0           Boost hana module
+boost-hana:x86-windows                             1.68.0           Boost hana module
+boost-heap:x64-windows                             1.68.0           Boost heap module
+boost-heap:x86-windows                             1.68.0           Boost heap module
+boost-hof:x64-windows                              1.68.0           Boost hof module
+boost-hof:x86-windows                              1.68.0           Boost hof module
+boost-icl:x64-windows                              1.68.0           Boost icl module
+boost-icl:x86-windows                              1.68.0           Boost icl module
+boost-integer:x64-windows                          1.68.0           Boost integer module
+boost-integer:x86-windows                          1.68.0           Boost integer module
+boost-interprocess:x64-windows                     1.68.0           Boost interprocess module
+boost-interprocess:x86-windows                     1.68.0           Boost interprocess module
+boost-interval:x64-windows                         1.68.0           Boost interval module
+boost-interval:x86-windows                         1.68.0           Boost interval module
+boost-intrusive:x64-windows                        1.68.0           Boost intrusive module
+boost-intrusive:x86-windows                        1.68.0           Boost intrusive module
+boost-io:x64-windows                               1.68.0           Boost io module
+boost-io:x86-windows                               1.68.0           Boost io module
+boost-iostreams:x64-windows                        1.68.0           Boost iostreams module
+boost-iostreams:x86-windows                        1.68.0           Boost iostreams module
+boost-iterator:x64-windows                         1.68.0           Boost iterator module
+boost-iterator:x86-windows                         1.68.0           Boost iterator module
+boost-lambda:x64-windows                           1.68.0           Boost lambda module
+boost-lambda:x86-windows                           1.68.0           Boost lambda module
+boost-lexical-cast:x64-windows                     1.68.0           Boost lexical_cast module
+boost-lexical-cast:x86-windows                     1.68.0           Boost lexical_cast module
+boost-local-function:x64-windows                   1.68.0           Boost local_function module
+boost-local-function:x86-windows                   1.68.0           Boost local_function module
+boost-locale:x64-windows                           1.68.0           Boost locale module
+boost-locale:x86-windows                           1.68.0           Boost locale module
+boost-lockfree:x64-windows                         1.68.0           Boost lockfree module
+boost-lockfree:x86-windows                         1.68.0           Boost lockfree module
+boost-log:x64-windows                              1.68.0           Boost log module
+boost-log:x86-windows                              1.68.0           Boost log module
+boost-logic:x64-windows                            1.68.0           Boost logic module
+boost-logic:x86-windows                            1.68.0           Boost logic module
+boost-math:x64-windows                             1.68.0           Boost math module
+boost-math:x86-windows                             1.68.0           Boost math module
+boost-metaparse:x64-windows                        1.68.0           Boost metaparse module
+boost-metaparse:x86-windows                        1.68.0           Boost metaparse module
+boost-modular-build-helper:x64-windows             2018-08-21
+boost-modular-build-helper:x86-windows             2018-08-21
+boost-move:x64-windows                             1.68.0           Boost move module
+boost-move:x86-windows                             1.68.0           Boost move module
+boost-mp11:x64-windows                             1.68.0           Boost mp11 module
+boost-mp11:x86-windows                             1.68.0           Boost mp11 module
+boost-mpl:x64-windows                              1.68.0           Boost mpl module
+boost-mpl:x86-windows                              1.68.0           Boost mpl module
+boost-msm:x64-windows                              1.68.0           Boost msm module
+boost-msm:x86-windows                              1.68.0           Boost msm module
+boost-multi-array:x64-windows                      1.68.0           Boost multi_array module
+boost-multi-array:x86-windows                      1.68.0           Boost multi_array module
+boost-multi-index:x64-windows                      1.68.0           Boost multi_index module
+boost-multi-index:x86-windows                      1.68.0           Boost multi_index module
+boost-multiprecision:x64-windows                   1.68.0           Boost multiprecision module
+boost-multiprecision:x86-windows                   1.68.0           Boost multiprecision module
+boost-numeric-conversion:x64-windows               1.68.0           Boost numeric_conversion module
+boost-numeric-conversion:x86-windows               1.68.0           Boost numeric_conversion module
+boost-odeint:x64-windows                           1.68.0           Boost odeint module
+boost-odeint:x86-windows                           1.68.0           Boost odeint module
+boost-optional:x64-windows                         1.68.0           Boost optional module
+boost-optional:x86-windows                         1.68.0           Boost optional module
+boost-parameter:x64-windows                        1.68.0           Boost parameter module
+boost-parameter:x86-windows                        1.68.0           Boost parameter module
+boost-phoenix:x64-windows                          1.68.0           Boost phoenix module
+boost-phoenix:x86-windows                          1.68.0           Boost phoenix module
+boost-poly-collection:x64-windows                  1.68.0           Boost poly_collection module
+boost-poly-collection:x86-windows                  1.68.0           Boost poly_collection module
+boost-polygon:x64-windows                          1.68.0           Boost polygon module
+boost-polygon:x86-windows                          1.68.0           Boost polygon module
+boost-pool:x64-windows                             1.68.0           Boost pool module
+boost-pool:x86-windows                             1.68.0           Boost pool module
+boost-predef:x64-windows                           1.68.0           Boost predef module
+boost-predef:x86-windows                           1.68.0           Boost predef module
+boost-preprocessor:x64-windows                     1.68.0           Boost preprocessor module
+boost-preprocessor:x86-windows                     1.68.0           Boost preprocessor module
+boost-process:x64-windows                          1.68.0           Boost process module
+boost-process:x86-windows                          1.68.0           Boost process module
+boost-program-options:x64-windows                  1.68.0           Boost program_options module
+boost-program-options:x86-windows                  1.68.0           Boost program_options module
+boost-property-map:x64-windows                     1.68.0           Boost property_map module
+boost-property-map:x86-windows                     1.68.0           Boost property_map module
+boost-property-tree:x64-windows                    1.68.0           Boost property_tree module
+boost-property-tree:x86-windows                    1.68.0           Boost property_tree module
+boost-proto:x64-windows                            1.68.0           Boost proto module
+boost-proto:x86-windows                            1.68.0           Boost proto module
+boost-ptr-container:x64-windows                    1.68.0           Boost ptr_container module
+boost-ptr-container:x86-windows                    1.68.0           Boost ptr_container module
+boost-python:x64-windows                           1.68.0-2         Boost python module
+boost-qvm:x64-windows                              1.68.0           Boost qvm module
+boost-qvm:x86-windows                              1.68.0           Boost qvm module
+boost-random:x64-windows                           1.68.0           Boost random module
+boost-random:x86-windows                           1.68.0           Boost random module
+boost-range:x64-windows                            1.68.0           Boost range module
+boost-range:x86-windows                            1.68.0           Boost range module
+boost-ratio:x64-windows                            1.68.0           Boost ratio module
+boost-ratio:x86-windows                            1.68.0           Boost ratio module
+boost-rational:x64-windows                         1.68.0           Boost rational module
+boost-rational:x86-windows                         1.68.0           Boost rational module
+boost-regex:x64-windows                            1.68.0           Boost regex module
+boost-regex:x86-windows                            1.68.0           Boost regex module
+boost-scope-exit:x64-windows                       1.68.0           Boost scope_exit module
+boost-scope-exit:x86-windows                       1.68.0           Boost scope_exit module
+boost-serialization:x64-windows                    1.68.0           Boost serialization module
+boost-serialization:x86-windows                    1.68.0           Boost serialization module
+boost-signals2:x64-windows                         1.68.0           Boost signals2 module
+boost-signals2:x86-windows                         1.68.0           Boost signals2 module
+boost-signals:x64-windows                          1.68.0           Boost signals module
+boost-signals:x86-windows                          1.68.0           Boost signals module
+boost-smart-ptr:x64-windows                        1.68.0           Boost smart_ptr module
+boost-smart-ptr:x86-windows                        1.68.0           Boost smart_ptr module
+boost-sort:x64-windows                             1.68.0           Boost sort module
+boost-spirit:x64-windows                           1.68.0           Boost spirit module
+boost-spirit:x86-windows                           1.68.0           Boost spirit module
+boost-stacktrace:x64-windows                       1.68.0           Boost stacktrace module
+boost-statechart:x64-windows                       1.68.0           Boost statechart module
+boost-static-assert:x64-windows                    1.68.0           Boost static_assert module
+boost-static-assert:x86-windows                    1.68.0           Boost static_assert module
+boost-system:x64-windows                           1.68.0           Boost system module
+boost-system:x86-windows                           1.68.0           Boost system module
+boost-test:x64-windows                             1.68.0-2         Boost test module
+boost-test:x86-windows                             1.68.0-2         Boost test module
+boost-thread:x64-windows                           1.68.0           Boost thread module
+boost-thread:x86-windows                           1.68.0           Boost thread module
+boost-throw-exception:x64-windows                  1.68.0           Boost throw_exception module
+boost-throw-exception:x86-windows                  1.68.0           Boost throw_exception module
+boost-timer:x64-windows                            1.68.0           Boost timer module
+boost-timer:x86-windows                            1.68.0           Boost timer module
+boost-tokenizer:x64-windows                        1.68.0           Boost tokenizer module
+boost-tokenizer:x86-windows                        1.68.0           Boost tokenizer module
+boost-tti:x64-windows                              1.68.0           Boost tti module
+boost-tti:x86-windows                              1.68.0           Boost tti module
+boost-tuple:x64-windows                            1.68.0           Boost tuple module
+boost-tuple:x86-windows                            1.68.0           Boost tuple module
+boost-type-erasure:x64-windows                     1.68.0           Boost type_erasure module
+boost-type-erasure:x86-windows                     1.68.0           Boost type_erasure module
+boost-type-index:x64-windows                       1.68.0           Boost type_index module
+boost-type-index:x86-windows                       1.68.0           Boost type_index module
+boost-type-traits:x64-windows                      1.68.0           Boost type_traits module
+boost-type-traits:x86-windows                      1.68.0           Boost type_traits module
+boost-typeof:x64-windows                           1.68.0           Boost typeof module
+boost-typeof:x86-windows                           1.68.0           Boost typeof module
+boost-ublas:x64-windows                            1.68.0           Boost ublas module
+boost-ublas:x86-windows                            1.68.0           Boost ublas module
+boost-units:x64-windows                            1.68.0           Boost units module
+boost-units:x86-windows                            1.68.0           Boost units module
+boost-unordered:x64-windows                        1.68.0           Boost unordered module
+boost-unordered:x86-windows                        1.68.0           Boost unordered module
+boost-utility:x64-windows                          1.68.0           Boost utility module
+boost-utility:x86-windows                          1.68.0           Boost utility module
+boost-uuid:x64-windows                             1.68.0           Boost uuid module
+boost-uuid:x86-windows                             1.68.0           Boost uuid module
+boost-variant:x64-windows                          1.68.0           Boost variant module
+boost-variant:x86-windows                          1.68.0           Boost variant module
+boost-vcpkg-helpers:x64-windows                    4                a set of vcpkg-internal scripts used to modulari...
+boost-vcpkg-helpers:x86-windows                    4                a set of vcpkg-internal scripts used to modulari...
+boost-vmd:x64-windows                              1.68.0           Boost vmd module
+boost-vmd:x86-windows                              1.68.0           Boost vmd module
+boost-wave:x64-windows                             1.68.0           Boost wave module
+boost-winapi:x64-windows                           1.68.0           Boost winapi module
+boost-winapi:x86-windows                           1.68.0           Boost winapi module
+boost-xpressive:x64-windows                        1.68.0           Boost xpressive module
+boost-xpressive:x86-windows                        1.68.0           Boost xpressive module
+boost-yap:x64-windows                              1.68.0           Boost yap module
+boost:x64-windows                                  1.68.0           Peer-reviewed portable C++ source libraries
+bzip2:x64-windows                                  1.0.6-2          High-quality data compressor.
+bzip2:x86-windows                                  1.0.6-2          High-quality data compressor.
+caffe2:x64-windows                                 0.8.1            Caffe2 is a lightweight, modular, and scalable d...
+clapack:x64-windows                                3.2.1-1          CLAPACK (f2c'ed version of LAPACK)
+cpprestsdk:x64-windows                             2.10.5           C++11 JSON, REST, and OAuth library The C++ REST...
+cpprestsdk:x86-windows                             2.10.5           C++11 JSON, REST, and OAuth library The C++ REST...
+cuda:x64-windows                                   9.0              A parallel computing platform and programming model
+cuda:x86-windows                                   9.0              A parallel computing platform and programming model
+curl:x86-windows                                   7.61.0           A library for transferring data with URLs
+curl[ssl]:x86-windows                                               SSL support
+dlib:x64-windows                                   19.15            Modern C++ toolkit containing machine learning a...
+dlib[cuda]:x64-windows                                              CUDA support for dlib
+eigen3:x64-windows                                 3.3.5            C++ template library for linear algebra: matrice...
+expat:x86-windows                                  2.2.5            XML parser library written in C
+fftw3:x64-windows                                  3.3.7-2          FFTW is a C subroutine library for computing the...
+gflags:x64-windows                                 2.2.1-3          A C++ library that implements commandline flags ...
+giflib:x64-windows                                 5.1.4-1          A library for reading and writing gif images.
+glew:x64-windows                                   2.1.0-1          The OpenGL Extension Wrangler Library (GLEW) is ...
+glfw3:x64-windows                                  3.2.1-3          GLFW is a free, Open Source, multi-platform libr...
+glog:x64-windows                                   0.3.5-1          C++ implementation of the Google logging module
+icu:x64-windows                                    61.1-2           Mature and widely used Unicode and localization ...
+ilmbase:x64-windows                                2.2.1-1          Base libraries from ILM for OpenEXR
+ilmbase:x86-windows                                2.2.1-1          Base libraries from ILM for OpenEXR
+leptonica:x64-windows                              1.74.4-5         An open source library containing software that ...
+libjpeg-turbo:x64-windows                          1.5.3-1          libjpeg-turbo is a JPEG image codec that uses SI...
+libjpeg-turbo:x86-windows                          1.5.3-1          libjpeg-turbo is a JPEG image codec that uses SI...
+liblzma:x64-windows                                5.2.3-2          Compression library with an API similar to that ...
+liblzma:x86-windows                                5.2.3-2          Compression library with an API similar to that ...
+libpng:x64-windows                                 1.6.35           libpng is a library implementing an interface fo...
+libpng:x86-windows                                 1.6.35           libpng is a library implementing an interface fo...
+lmdb:x64-windows                                   0.9.18-4         LMDB is an extraordinarily fast, memory-efficien...
+lz4:x64-windows                                    1.8.2            Lossless compression algorithm, providing compre...
+lz4:x86-windows                                    1.8.2            Lossless compression algorithm, providing compre...
+openblas:x64-windows                               0.2.20-2         OpenBLAS is an optimized BLAS library based on G...
+opencv:x64-windows                                 3.4.1            computer vision library
+opencv[contrib]:x64-windows                                         opencv_contrib module
+opencv[cuda]:x64-windows                                            CUDA support for opencv
+opencv[dnn]:x64-windows                                             opencv_dnn module
+opencv[eigen]:x64-windows                                           Eigen support for opencv
+opencv[ffmpeg]:x64-windows                                          prebuilt ffmpeg support for opencv
+opencv[flann]:x64-windows                                           opencv_flann module
+opencv[jpeg]:x64-windows                                            JPEG support for opencv
+opencv[opengl]:x64-windows                                          opengl support for opencv
+opencv[png]:x64-windows                                             PNG support for opencv
+opencv[tiff]:x64-windows                                            TIFF support for opencv
+openexr:x64-windows                                2.2.1-1          OpenEXR is a high dynamic-range (HDR) image file...
+openexr:x86-windows                                2.2.1-1          OpenEXR is a high dynamic-range (HDR) image file...
+opengl:x64-windows                                 0.0-5            Open Graphics Library (OpenGL)[3][4][5] is a cro...
+openssl-windows:x64-windows                        1.0.2o           OpenSSL is an open source project that provides ...
+openssl-windows:x86-windows                        1.0.2o           OpenSSL is an open source project that provides ...
+openssl:x64-windows                                0                OpenSSL is an open source project that provides ...
+openssl:x86-windows                                0                OpenSSL is an open source project that provides ...
+openvdb:x64-windows                                5.0.0-1          Sparse volume data structure and tools
+openvdb:x86-windows                                5.0.0-1          Sparse volume data structure and tools
+protobuf:x64-windows                               3.6.1-2          Protocol Buffers - Google's data interchange format
+python3:x64-windows                                3.6.4-2          The Python programming language as an embeddable...
+sdl2:x86-windows                                   2.0.8-1          Simple DirectMedia Layer is a cross-platform dev...
+snappy:x64-windows                                 1.1.7-2          A fast compressor/decompressor.
+snappy:x86-windows                                 1.1.7-2          A fast compressor/decompressor.
+sqlite3:x64-windows                                3.24.0-1         SQLite is a software library that implements a s...
+sqlite3:x86-windows                                3.24.0-1         SQLite is a software library that implements a s...
+tbb:x64-windows                                    2018_U5          Intel's Threading Building Blocks.
+tbb:x86-windows                                    2018_U5          Intel's Threading Building Blocks.
+tesseract:x64-windows                              3.05.02          An OCR Engine that was developed at HP Labs betw...
+tiff:x64-windows                                   4.0.9-4          A library that supports the manipulation of TIFF...
+tiff:x86-windows                                   4.0.9-4          A library that supports the manipulation of TIFF...
+torch-th:x64-windows                               2018-07-03       Torch's TH library
+websocketpp:x64-windows                            0.7.0-1          Library that implements RFC6455 The WebSocket Pr...
+websocketpp:x86-windows                            0.7.0-1          Library that implements RFC6455 The WebSocket Pr...
+wxwidgets:x86-windows                              3.1.1            wxWidgets is a widget toolkit and tools library ...
+zlib:x64-windows                                   1.2.11-3         A compression library
+zlib:x86-windows                                   1.2.11-3         A compression library
+zlib:x86-windows-static                            1.2.11-3         A compression library
+zstd:x64-windows                                   1.3.4            Zstandard - Fast real-time compression algorithm...
+zstd:x86-windows                                   1.3.4            Zstandard - Fast real-time compression algorithm...
