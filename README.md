@@ -1,6 +1,6 @@
 # Openvdbfractals
 
-This simple command line tool can convert point clouds to Dreamwork's OpenVDB format. I use it for converting fractals made in Mandelbulb3D to Cinema4D and render the fractals using Octane. To do: check if it also works in Blender....
+This simple command line tool can convert point clouds to Dreamwork's OpenVDB format. I use it for converting fractals made in Mandelbulb3D to Cinema4D and render the fractals using Octane. I think it also works with Blender/Cycles, but I did not try this.
 
 ![picture](images/fractal1.png)
 ![picture](images/fractal2.png)
@@ -63,9 +63,9 @@ NaNizcPixrPlC6zD……………………………………………………….
 We can export the Mandelbulb3D model to a point cloud. Make sure you have version 1.9.9. Open the BTracer (Bulb tracer) and import the parameters from main. You probably will need to scale the object (I scaled to 0.5). After it fits in the preview window, you can write it to a ply file. 
 
 The tool uses the following parameters: 
--filename: locations of the ply file
--skip: the number of lines to skip (default 11) when the ply files contains metadata/comments
--rgb (default true): use rgb channels
+- filename: locations of the ply file
+- skip: the number of lines to skip (default 11) when the ply files contains metadata/comments
+- rgb (default true): use rgb channels
 - magnification (default 10000): the factor for magnification
 
 Windows: If we now run PlyToOpenVDBConverter.exe -filename <filename.ply> we get a vdb file as result.
