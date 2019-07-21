@@ -2,6 +2,8 @@
 
 This simple command line tool can convert point clouds to Dreamwork's OpenVDB format. I use it for converting fractals made in Mandelbulb3D to Cinema4D and render the fractals using Octane. To do: check if it also works in Blender....
 
+![picture](images/fractal1.png)
+
 # Install on Windows
 
 A precompiled version for Windows is included in the directory windowsx64. I used vcpkg to install the dependencies. My vcpkg configuration is listed in vcpkglist.txt (contains more packages than you'll need). I didn't use CMake for building on Windows, but created a Visual Studio project myself.
