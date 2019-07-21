@@ -3,6 +3,7 @@
 This simple command line tool can convert point clouds to Dreamwork's OpenVDB format. I use it for converting fractals made in Mandelbulb3D to Cinema4D and render the fractals using Octane. To do: check if it also works in Blender....
 
 ![picture](images/fractal1.png)
+![picture](images/fractal2.png)
 
 # Install on Windows
 
@@ -24,6 +25,8 @@ Requirements:
 We’ll start by making a fractal in Mandelbulb3D. 
 
 I assumed you are familiar with Mandelbulb3D and are able to create your own fractal. If you’re not, you can import these parameters by using the button ‘From clipboard’.
+
+![picture](images/fractal3.png)
 
 Mandelbulb3Dv18{
 g…..S….O/…w….2……………1…….s1E…………………………..
@@ -55,6 +58,8 @@ NaNizcPixrPlC6zD……………………………………………………….
 ………………………………………………..}
 {Titel: m164}
 
+![picture](images/fractal4.png)
+
 We can export the Mandelbulb3D model to a point cloud. Make sure you have version 1.9.9. Open the BTracer (Bulb tracer) and import the parameters from main. You probably will need to scale the object (I scaled to 0.5). After it fits in the preview window, you can write it to a ply file. 
 
 The tool uses the following parameters: 
@@ -68,9 +73,17 @@ Linux: If we now run ./openvdbfractals -filename <filename.ply> we get a vdb fil
 
 Now it’s time to start Cinema 4D, enable Octane and add a Octane VDB volume. Specify the file we just created as input.
 
+![picture](images/fractal5.png)
+
 Make the volume step length lower and the fractal cloud appears (you can also make the density higher). You can change the appearance of the fractal by changing the absorption, scattering, and emission values.
 
 Here are some examples created using this technique.
+
+![picture](images/fractal6.png)
+![picture](images/fractal7.png)
+![picture](images/fractal8.png)
+![picture](images/fractal9.png)
+![picture](images/fractal10.png)
 
 
 
