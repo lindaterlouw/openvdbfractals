@@ -4,13 +4,13 @@ This simple command line tool can convert point clouds to Dreamwork's OpenVDB fo
 
 # Install on Windows
 
-A precompiled version for Windows is included in the directory windowsx64. 
+A precompiled version for Windows is included in the directory windowsx64. I used vcpkg to install the dependencies. My vcpkg configuration is listed in vcpkglist.txt (contains more packages than you'll need). I didn't use CMake for building on Windows, but created a Visual Studio project myself.
 
 # Install on Linux
 
-Just build the included Dockerfile. First go to the directory of the Dockerfile. Then run the following commands: 
+Just build the included Dockerfile. To do this, first go to the directory of the Dockerfile. Then run the following commands: 
 1) docker build . -t openvdbfractals
-2) docker run -it - <to do... ?
+2) docker run --rm -ti -v /home/linda:/home/linda openvdbfractals bash
 
 # Use the tool
 
@@ -19,11 +19,9 @@ Requirements:
 - Cinema 4D (or Blender)
 - Octane (or Cycles)
 
-The first part of this tutorial is the same as for making particle fractals (https://codefolio.nl/2019/03/03/making-a-particle-fractal/). 
-
 We’ll start by making a fractal in Mandelbulb3D. 
 
- I assumed you are familiar with Mandelbulb3D and are able to create your own fractal. If you’re not, you can import these parameters by using the button ‘From clipboard’.
+I assumed you are familiar with Mandelbulb3D and are able to create your own fractal. If you’re not, you can import these parameters by using the button ‘From clipboard’.
 
 Mandelbulb3Dv18{
 g…..S….O/…w….2……………1…….s1E…………………………..
@@ -57,7 +55,14 @@ NaNizcPixrPlC6zD……………………………………………………….
 
 We can export the Mandelbulb3D model to a point cloud. Make sure you have version 1.9.9. Open the BTracer (Bulb tracer) and import the parameters from main. You probably will need to scale the object (I scaled to 0.5). After it fits in the preview window, you can write it to a ply file. 
 
-If we now run PlyToOpenVDBConverter.exe -filename <filename.ply> we get a vdb file as result.
+The tool uses the following parameters: 
+-filename: locations of the ply file
+-skip: the number of lines to skip (default 11) when the ply files contains metadata/comments
+-rgb (default true): use rgb channels
+- magnification (default 10000): the factor for magnification
+
+Windows: If we now run PlyToOpenVDBConverter.exe -filename <filename.ply> we get a vdb file as result.
+Linux: If we now run ./openvdbfractals -filename <filename.ply> we get a vdb file as result.
 
 Now it’s time to start Cinema 4D, enable Octane and add a Octane VDB volume. Specify the file we just created as input.
 
