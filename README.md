@@ -1,6 +1,6 @@
 # Openvdbfractals
 
-This simple command line tool can convert point clouds to OpenVDB format (using DreamWorks' OpenVDB library, see https://www.openvdb.org/). I use it for converting fractals made in Mandelbulb3D to Cinema4D and render the fractals using Octane. I think there's also some work done of OpenVDB support in Blender, but I don't think it's included yet in version 2.8 (please correct me if I'm wrong!).
+This simple command line tool can convert point clouds to OpenVDB format (using DreamWorks' OpenVDB library, see https://www.openvdb.org/). I use it for converting fractals made in Mandelbulb3D to Cinema4D and render the fractals using Octane. I think there's also some work done on OpenVDB support in Blender (Google Summer of Code 2018), but I don't think it's included yet in version 2.8 (please correct me if I'm wrong!).
 
 ![picture](images/fractal1.png)
 ![picture](images/fractal2.png)
@@ -84,7 +84,8 @@ Here are some examples created using this technique.
 ![picture](images/fractal8.png)
 ![picture](images/fractal9.png)
 ![picture](images/fractal10.png)
+![picture](images/fractal11.png)
 
-
+If you run into problems, just send me a message! 
 
 
